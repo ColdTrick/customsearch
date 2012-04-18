@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest>
+        <field key="author" value="ColdTrick IT Solutions" />
+        <field key="version" value="2.0.1" />
+        <field key="description" value="Customized search plugin,added full text search (Original by Cubet Technologies)" />
+        <field key="website" value="http://www.coldtrick.com/" />
+        <field key="copyright" value="(C) ColdTrick IT Solutions 2009" />
+        <field key="licence" value="GNU Public License version 2" />
+        <field key="elgg_version" value="2009030702" />
+</plugin_manifest>
+<!-- 
+======================
+INSTALLATION
+======================
+- Place in mod directory
+- Enable plugin
+- edit {document_root}/search/index.php
+	- comment out line 63 to 84
+	- insert 'trigger_plugin_hook('search','',$tag,"");' below the comment block you just created
+
+======================
+Version History
+======================
+2.0.1 (2010-03-19):
+	- fixed: SQL injection possibility (thanks to Paul Dragoonis)
+
+2.0:
+	- code cleanup
+	- now works with all (registered) subtypes
+	- removed unused files
+
+1.5:
+	- original version by Cubet Technologies
+-->
+
+
